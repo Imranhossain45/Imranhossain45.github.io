@@ -9,8 +9,32 @@ body{
     background-color: #8a8a8a;
 }
 .navbar-container{
+    top: 0;
     background-color: #262B37;
+    position: sticky;
+    z-index: 2;
 }
 .about-container{
     background-color: #00bdbd;
+}
+.education-container{
+    background-color: #eeeeee;
+}
+.redtype-color{
+    color:#FB857F;
+}
+.bg-redtype{
+    background-color: #FB857F;
+}
+.circle{
+    background-color: #FB857F;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.project-container{
+    background-color: #2BB3DD;
+}
+.form-container{
+    background-color: #979ba7;
 }
