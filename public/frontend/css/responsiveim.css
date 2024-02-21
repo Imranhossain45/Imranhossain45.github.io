@@ -1,0 +1,283 @@
+@media (max-width: 1024px) {
+    ul.navbar-nav > li > a {
+        padding: 0 7px;
+    }
+}
+@media (max-width: 991px) {
+    .offcanvas-collapse {
+        position: fixed;
+        top: 0px;
+        left: -270px;
+        width: 260px;
+        height: auto;
+        background: #bc2324;
+        transition: left 0.3s ease;
+        z-index: 1000;
+    }
+
+    .offcanvas-collapse.show {
+        left: 0;
+    }
+
+    .navbar-toggler {
+        position: fixed;
+        top: 0px;
+        left: 10px;
+        z-index: 1001;
+    }
+    .navbar-fixed {
+        position: fixed;
+        z-index: 1000;
+    }
+    .logo_img_li img {
+        margin-left: -25px !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .fall-item {
+        text-align: center;
+        width: 80px !important;
+        flex: 0 0 80px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+    .topbar_score_slider .owl-next {
+        top: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .score_top_title_res {
+        display: block;
+    }
+    .top-bar {
+        display: none;
+    }
+    .fall-item {
+        max-width: 30%;
+        flex: 0 0 33.33%;
+        padding: 6px;
+    }
+    .topbar_score_slider .owl-next {
+        height: 120px !important;
+        padding: 40px 0 !important;
+    }
+    .topbar_score_slider .owl-prev {
+        height: 120px !important;
+        padding: 40px 0 !important;
+    }
+    .featured_play_btn {
+        top: 14% !important;
+    }
+    .play_btn {
+        left: 33%;
+        font-size: 20px;
+    }
+    .block-title > span {
+        padding: 6px 10px;
+    }
+    .block-title {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .post-title.title-extra-large {
+        font-size: 16px;
+    }
+    .play_btn {
+        left: 45%;
+    }
+    .news_details_left_side {
+        display: none;
+    }
+    .news_details_v_p {
+        display: block;
+    }
+    ul.navbar-nav > li > a:hover,
+    ul.navbar-nav > li > a:focus {
+        padding: 10px 0 10px 20px !important;
+    }
+    a.logo_img_a {
+        right: 24%;
+        top: -1px;
+        position: relative;
+    }
+    .navbar {
+        z-index: 2 !important;
+    }
+    .cricket_score_res {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .auther_name {
+        padding-left: 0 !important;
+    }
+    .single-post .post-title {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .logo_img_a {
+        display: block !important;
+    }
+    .logo_img_li {
+        display: none !important;
+    }
+    .navbar-toggler {
+        left: -7px;
+        top: 3px;
+        position: relative;
+        z-index: 9;
+    }
+    .post-block-style.post-float .post-thumb {
+        margin-right: 0px;
+    }
+    .post-block-style.post-float .post-thumb img {
+        border-radius: 5px;
+        max-width: 130px;
+        min-height: 102px;
+        margin-right: 10px;
+    }
+    .post-block-style.post-float-half .post-thumb img {
+        max-width: none;
+        margin-bottom: 10px;
+    }
+    .post-block-style.post-float-half .post-thumb {
+        float: none;
+    }
+    .score_topbar {
+        display: block;
+    }
+    .score_nav_link {
+        border-bottom: 1px solid white !important;
+    }
+    .current-partnership {
+        display: block;
+    }
+    .separator-line {
+        display: none;
+    }
+    .h-right-content .bottom-bar {
+        display: block;
+    }
+    .h-current-statistics li,
+    .h-right-content p {
+        font-size: 14px;
+    }
+    .sidebar_news_part .post-thumb img {
+        margin-right: 15px;
+    }
+    section,
+    .section-padding {
+        padding: 0;
+    }
+    .left_add_res {
+        margin-top: 30px;
+    }
+    .subscribe_btn {
+        border-radius: 5px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .subscribe_input {
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    .subscribe_section {
+        display: block !important;
+    }
+    .left_1st_block {
+        display: none;
+    }
+    .left_1st_block_right_side {
+        display: block;
+    }
+    .page_section_res {
+        margin-top: 30px;
+    }
+    .add2_res {
+        display: block;
+    }
+    .journalist_news_part {
+        display: none;
+    }
+    .page_section_pad_50 {
+        padding: 50px 0 60px 0 !important;
+    }
+    .pad_bot_res_60 {
+        padding-bottom: 60px;
+    }
+    .player_profile_table td,
+    .table th {
+        padding: 4px;
+    }
+    .football_info_rank_res {
+        display: block;
+    }
+    .recent_series_right_side {
+        display: block;
+    }
+    .team_rank_title_res {
+        font-size: 27px !important;
+    }
+    .batsman_res {
+        display: none;
+    }
+    .batsman_wrapprer_res {
+        display: block;
+    }
+
+    /* commentry css */
+    /* .table.strike-table tbody td .d-flex.align-items-center {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .how-out .d-xs-none {
+        display: none !important;
+    }
+    span.how-out.d-pc-none.d-pc-block {
+        display: block;
+    } */
+    .how_out_res {
+        display: block;
+    }
+    .player_out_block {
+        display: block !important;
+    }
+    .player-name-img {
+        display: flex;
+    }
+    .how_out_res_td {
+        display: none;
+    }
+    .score_card_table .table td,
+    .table th {
+        padding: 5px;
+    }
+    .did-not-bat .player-item {
+        max-width: 60%;
+    }
+    .mb_res {
+        margin-bottom: 20px;
+    }
+    .search-block {
+        right: -10px;
+    }
+    .featured_play_btn {
+        top: 28% !important;
+    }
+    .auther_name_home {
+        display: none;
+    }
+    .logincard_body {
+        padding: 20px;
+    }
+    .post-thumb img {
+        border-radius: 5px;
+    }
+    .header_social {
+       display: block;
+    }
+    .magazine_2_res{
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,36 @@
+.m_top {
+    margin-top: 53px;
+}
+.m_top_70{
+    margin-top: 70px;
+}
+label {
+    font-weight: bold;
+}
+
+.left-border {
+    border-left: 15px solid #f8f8fb;
+}
+
+.form-select select {
+    border-radius: 0 !important;
+}
+
+.select2-container {
+    width: 100% !important;
+}
+
+.featured {
+    margin-left: 20px;
+}
+
+.title_border {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+@media only screen and (max-width: 480px) {
+    .featured {
+        margin-left: 0px;
+    }
+}
